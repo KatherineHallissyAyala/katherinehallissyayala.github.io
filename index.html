@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Katherine Hallissy Ayala</title>
+    <style>
+        .grid{
+            display:grid;
+            grid-template-columns: 400px 1fr 400px;
+            grid-template-rows: auto 1fr auto;
+            gap: 10px;
+            height: 90vh;
+        }
+        .bio-grid{
+            display:grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 40px;
+        }
+        header, footer {
+            grid-column: 1 / 4;
+            background: rgb(245, 243, 243);
+        }
+        article{
+            
+        }
+        h1{
+            font-family: 'Jost', sans-serif;
+            text-align: center;
+        }
+        h3{
+            font-family: 'Jost', sans-serif;
+        }
+        h4{
+            font-family: 'Jost', sans-serif;
+        }
+        p{
+            font-family: 'Jost', sans-serif;
+        }
+        i{
+            display: inline-block;
+            text-align: right;
+            justify-content: right;
+        }
+        .photo{
+            display: flex;
+            justify-content: center;
+        }
+        .footer-content{
+            text-align:center;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <div class =grid>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="https://katherinehallissyayala.github.io/portfolio/">Katherine Hallissy Ayala</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" 
+                        href="https://github.com/KatherineHallissyAyala?tab=repositories">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Interests</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <aside></aside>
+        <article>
+            <div class=marquee>
+                <div class=photo>
+                    <img src="./Headshot-circle.jpg">
+                </div>
+                <div>
+                    <h1>Katherine Hallissy Ayala<br>
+                    Full Stack Developer, In Progress</h1>
+                </div>
+            </div>
+            <div class=bio-grid>
+                <div id="left-column">
+                    <h3>About me</h3>
+                    <p>I am a developer looking for interesting challenges.  My skills include 
+                        working with Javascript, implementing styles with CSS and Bootstrap, testing, 
+                        manipulating the DOM with Javascript, applying map libraries, and some work 
+                        with large datasets.  <br>
+                        <br>
+                        I also have experience implementing WordPress websites, Wix websites, 
+                        a podcast website, and a YouTube channel for small businesses.  I like to teach 
+                        clients to maintain their own sites, when they are using a user-friendly platform 
+                        like WordPress or Wix. <br>
+                        <br>
+                        I have a BA in Computer Science and Spanish, I hold an MA in Computer Education, 
+                        I have taught computer skills and programming at the K-12 level, and I am 
+                        looking to returning to work following a career pause focused on raising children.
+                    </p>
+                </div>
+                <div id="right-column">
+                    <h3>Contact</h3>
+                    <p>
+                        <a href="https://www.linkedin.com/in/katherine-hallissy-ayala/">
+                        <i class="fa fa-linkedin-square" style="font-size:24px"></i> LinkedIn</a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/KatherineHallissyAyala?tab=repositories">
+                        <i class="fa fa-github" style="font-size:24px"></i> GitHub</a>
+                    </p>
+                    <p>
+                        <address>
+                        <a href="mailto:info@codebykatherine.com">
+                        <i class="fa fa-envelope" style="font-size:24px"></i> Email</a>
+                        </address>
+                    </p>
+                </div>
+            </div>
+            <div class = marquee>
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/-ZWqr6Yrh18" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; 
+                    autoplay; clipboard-write; 
+                    encrypted-media; 
+                    gyroscope; 
+                    picture-in-picture; 
+                    web-share" 
+                allowfullscreen>
+                </iframe>
+            </div>
+            
+        </article>
+        <aside></aside>
+        <footer role="contentinfo">
+            <div class="footer-content">
+                <h4> &copy; 2023 Katherine Hallissy Ayala</h3>
+                <p>
+                    <a href="https://www.linkedin.com/in/katherine-hallissy-ayala/">
+                        <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+                    </a>
+                    <a href="https://github.com/KatherineHallissyAyala?tab=repositories">
+                        <i class="fa fa-github" style="font-size:24px"></i>
+                    </a>
+                </p>
+            </div>
+        </footer>
+</body>
+</html>
